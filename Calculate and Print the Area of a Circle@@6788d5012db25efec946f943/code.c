@@ -2,7 +2,7 @@
 #include<math.h>
 
 int main(){
-    int num;
-    scanf("%d",&num);
+    float num;
+    scanf("%f",&num);
     printf("Area: %.2f",(float)(3.14*(num*num)));
 }
