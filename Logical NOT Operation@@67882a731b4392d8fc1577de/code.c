@@ -3,6 +3,7 @@
 int main(){
     int num;
     scanf("%d",&num);
-    (!num)?printf("True"):printf("False");
+    if(!num) printf("True");
+    else printf("False");
     return 0;
 }
