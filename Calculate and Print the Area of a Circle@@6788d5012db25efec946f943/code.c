@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    float num;
-    scanf("%f",&num);
-    printf("Area: %.2f",(22/7*num*num));
+    int num;
+    scanf("%d",&num);
+    printf("Area: %.2f",(float)(22/7*num*num));
 }
