@@ -3,6 +3,6 @@
 int main(){
     int num;
     scanf("%d",&num);
-    (!num)?printf("False"):printf("True");
+    (!num)?printf("True"):printf("False");
     return 0;
 }
