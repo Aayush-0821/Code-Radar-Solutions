@@ -5,9 +5,9 @@ int main(){
     scanf("%d %d",&a,&b);
     if(a==b) printf("%d %d",a,b);
     else{
-        *a=*a^*b;
-        *b=*a^*b;
-        *a=*a^*b;
+        a=a^b;
+        b=a^b;
+        a=a^b;
         printf("%d %d",b,a);
     }
 }
