@@ -3,6 +3,8 @@
 int main(){
     int num;
     scanf("%d",&num);
-    (num>0)?printf("Positive"):printf("Negative");
+    if(num==0) printf("Zero");
+    else if(num>0) printf("Positive")
+    else printf("Negative");
     return 0;
 }
